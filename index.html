@@ -14,11 +14,14 @@
 </head>
 <body>
   <main>
-    <div class="card">
-      <div class="image"></div>
+    <article class="card">
+      <picture>
+        <source media="(max-width: 23.4375rem)" srcset="./images/image-product-mobile.jpg">
+        <img src="./images/image-product-desktop.jpg" alt="Gabrielle Parfum" style="width: auto;" class="product-image">
+      </picture>
 
-      <div class="product-info">
-        <h3>P E R F U M E</h3>
+      <div class="card-content">
+        <p>P E R F U M E</p>
 
         <h1>Gabrielle Essence Eau De Parfum</h1>
   
@@ -34,7 +37,7 @@
   
         <button><img src="./images/icon-cart.svg" alt="">Add to Cart</button>
       </div>
-    </div>
+    </article>
   </main>
 </body>
 </html>
